@@ -1,4 +1,5 @@
 # 遗传算法解决TSP问题
+动图可能要梯子才能显示，可以去[我的博客](https://blog.csdn.net/github_35751574/article/details/102886744)
 ## 核心部分伪代码
 ```
 population_cur = init_population()
