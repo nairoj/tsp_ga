@@ -56,5 +56,4 @@ while 不满足终止条件：
 
 ## 参考
 [^1]: [Improving TSP Solutions Using GA with a New Hybrid Mutation Based on Knowledge and Randomness](https://arxiv.org/ftp/arxiv/papers/1801/1801.07233.pdf)
-
 [^2]: [github大佬模拟退火解决tsp问题](https://github.com/tnlin/PokemonGo-TSP/tree/master/data)
