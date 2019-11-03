@@ -28,7 +28,7 @@ while 不满足终止条件：
 ```
 
 ## 采用了一种效果比较好的变异方法
-对一个待变异的个体A，分别进行`滑动变异`，`翻转变异`，`irgibnnm变异`，取三种变异结果最好的那种[^1]
+对一个待变异的个体A，分别进行`滑动变异`，`翻转变异`，`irgibnnm变异`，取三种变异结果最好的那种[[1]](https://arxiv.org/ftp/arxiv/papers/1801/1801.07233.pdf)
 
 ### 滑动变异
 随机生成两个下标a,b （a<b）; 将s[a]挪到s[b]后面
@@ -49,11 +49,11 @@ while 不满足终止条件：
 ## 运行与结果
 运行gsp_ga.py文件即可
 
-数据集用的是78个点[^2]，在我的电脑上大概跑10s左右，印象中最优距离是5400m左右
+数据集用的是78个点[[2]](https://github.com/tnlin/PokemonGo-TSP/tree/master/data)，在我的电脑上大概跑10s左右，印象中最优距离是5400m左右
 ![运行结果](resource/运行结果.jpg)
 ## 遗传算法完整代码
 [github完整代码](https://github.com/nairoj/tsp_ga)
 
 ## 参考
-[^1]: [Improving TSP Solutions Using GA with a New Hybrid Mutation Based on Knowledge and Randomness](https://arxiv.org/ftp/arxiv/papers/1801/1801.07233.pdf)
-[^2]: [github大佬模拟退火解决tsp问题](https://github.com/tnlin/PokemonGo-TSP/tree/master/data)
+[1] [Improving TSP Solutions Using GA with a New Hybrid Mutation Based on Knowledge and Randomness](https://arxiv.org/ftp/arxiv/papers/1801/1801.07233.pdf)
+[2] [github大佬模拟退火解决tsp问题](https://github.com/tnlin/PokemonGo-TSP/tree/master/data)
